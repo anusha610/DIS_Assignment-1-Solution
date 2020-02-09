@@ -102,7 +102,7 @@ namespace Assignment1_Spring2020
                     DateTime d1 = Convert.ToDateTime(s);//Converting it to datetime using library
                                                         //Console.WriteLine(d1);
                     int hour = d1.Hour;
-                    int min = d1.Minute;
+                    int min = d1.Minute; 
                     int sec = d1.Second;
                     int time = (hour * 60 * 60 + min * 60 + sec); //Calculating the total number of seconds
                     int usfmin = time / 45; //no.of min in usf planet
